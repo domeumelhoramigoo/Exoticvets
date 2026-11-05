@@ -1,3 +1,4 @@
+@font-face{font-family:Bebas;font-weight:400;src:url(bebas-neue-latin-400-normal.woff2) format("woff2")}
 @font-face{font-family:Montserrat;font-weight:400;src:url(montserrat-latin-400-normal.woff2) format("woff2")}
 @font-face{font-family:Montserrat;font-weight:600;src:url(montserrat-latin-600-normal.woff2) format("woff2")}
 @font-face{font-family:Montserrat;font-weight:700;src:url(montserrat-latin-700-normal.woff2) format("woff2")}
@@ -10,7 +11,7 @@ a{color:var(--tur2)}
 .w{max-width:1120px;margin:0 auto;padding:0 20px}
 header{position:sticky;top:0;z-index:9;background:rgba(22,27,29,.94);border-bottom:1px solid #2c373a}
 .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
-.logo{font-weight:800;font-size:1.35rem;letter-spacing:.02em;text-transform:uppercase;color:#fff;text-decoration:none}
+.logo{font-family:Bebas,Impact,sans-serif;font-weight:400;font-size:2rem;letter-spacing:.03em;line-height:1;text-transform:uppercase;color:#fff;text-decoration:none}
 .logo b{color:var(--tur)}
 nav a{color:var(--tx);text-decoration:none;font-weight:600;font-size:.9rem;margin-left:20px}
 nav a.cta{background:var(--tur);color:#fff;padding:9px 18px;border-radius:99px}
